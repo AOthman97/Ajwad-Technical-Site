@@ -1,9 +1,19 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
-    --secondary: #4777F5;
+    --primary: #00ABB3;
+    --secondary: #2D9596;
     --light: #F7FAFF;
     --dark: #1D1D27;
+}
+
+.container-xxl, .btn {
+    background-color: #00ABB3 !important;
+    color: white;
+    border-color: white;
+}
+
+.btn-square:hover {
+    color: whitesmoke;
 }
 
 
@@ -238,7 +248,7 @@ h6,
     height: 10px;
     top: 2px;
     left: 0;
-    background: rgba(33, 66, 177, .5);
+    background: rgba(109, 230, 195, 0.5);
 }
 
 .section-title h6::after {
