@@ -6,10 +6,20 @@
     --dark: #1D1D27;
 }
 
-.container-xxl, .btn {
+/* .container-xxl, .btn {
     background-color: #00ABB3 !important;
     color: white;
     border-color: white;
+} */
+
+.bg-green, .btn {
+    background-color: var(--primary) !important;
+    color: var(--light) !important;
+    border-color: var(--light) !important;
+}
+
+.green {
+    color: var(--primary) !important;
 }
 
 .btn-square:hover {
@@ -278,8 +288,8 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--light);
-    background: url(../img/icon-shape-primary.png) center center no-repeat;
+    color: var(--primary);
+    /* background: url(../img/icon-shape-primary.png) center center no-repeat; */
     transition: .5s;
 }
 
